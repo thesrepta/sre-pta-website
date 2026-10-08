@@ -349,17 +349,17 @@ export default function Home() {
         
         <div className="flex flex-wrap justify-center gap-8 md:gap-16 items-center transition-all duration-500">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/sre-pta-website/images/sponsors/Texas-Roadhouse-Logo-1.jpg" alt="Texas Roadhouse" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Texas-Roadhouse-Logo-1.jpg" alt="Texas Roadhouse" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/sre-pta-website/images/sponsors/Sweet Mollie Floral Bouquet Logo-2.png" alt="Sweet Mollie Floral Bouquet" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Sweet Mollie Floral Bouquet Logo-2.png" alt="Sweet Mollie Floral Bouquet" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/sre-pta-website/images/sponsors/Charleston River Dogs Logo.jpg" alt="Charleston River Dogs" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Charleston River Dogs Logo.jpg" alt="Charleston River Dogs" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/sre-pta-website/images/sponsors/South Carolina Aquarium Logo.jpeg" alt="South Carolina Aquarium" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/South Carolina Aquarium Logo.jpeg" alt="South Carolina Aquarium" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/sre-pta-website/images/sponsors/South Carolina Stingrays Hockey Logo.svg" alt="South Carolina Stingrays" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/South Carolina Stingrays Hockey Logo.svg" alt="South Carolina Stingrays" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/sre-pta-website/images/sponsors/Topgolf-Logo.jpg" alt="Topgolf" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Topgolf-Logo.jpg" alt="Topgolf" className="h-20 w-auto object-contain" />
         </div>
 
         <div className="mt-12">
