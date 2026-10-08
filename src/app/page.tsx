@@ -329,12 +329,14 @@ export default function Home() {
               >
                 Visit Our Shop
               </a>
-              <Link 
-                href="/sponsors"
+              <a 
+                href="https://stars.givebacks.com/shop/items/523b1481e5"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-campfire-orange hover:bg-orange-500 text-white font-bold py-4 px-6 rounded-xl text-center transition-colors flex-1"
               >
                 Become a Sponsor
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -361,12 +363,14 @@ export default function Home() {
         </div>
 
         <div className="mt-12">
-          <Link 
-            href="/sponsors"
+          <a 
+            href="https://stars.givebacks.com/shop/items/523b1481e5"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-forest-green font-bold hover:text-forest-green/80"
           >
             Become a Sponsor <ChevronRight className="h-5 w-5" />
-          </Link>
+          </a>
         </div>
       </section>
     </div>
