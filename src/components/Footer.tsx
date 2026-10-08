@@ -46,10 +46,10 @@ export function Footer() {
               <p>Summerville, SC 29486</p>
             </address>
             <div className="flex gap-4">
-              <a href="mailto:contact@srepta.org" className="hover:text-golden-yellow transition-colors" aria-label="Email the PTA">
+              <a href="mailto:PTASangaree@gmail.com" className="hover:text-golden-yellow transition-colors" aria-label="Email the PTA">
                 <Mail className="h-5 w-5" />
               </a>
-              <a href="#" className="hover:text-golden-yellow transition-colors" aria-label="Visit our Facebook page">
+              <a href="https://www.facebook.com/PTASangareeElementary" target="_blank" rel="noopener noreferrer" className="hover:text-golden-yellow transition-colors" aria-label="Visit our Facebook page">
                 <FacebookIcon className="h-5 w-5" />
               </a>
               <a href="https://stars.givebacks.com/shop" target="_blank" rel="noopener noreferrer" className="hover:text-golden-yellow transition-colors" aria-label="Visit our Givebacks Shop">
