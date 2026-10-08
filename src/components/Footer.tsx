@@ -63,7 +63,7 @@ export function Footer() {
             <h3 className="text-sm font-bold text-white mb-4 uppercase tracking-wider">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/about" className="hover:text-white transition-colors">About the PTA</Link>
+                <Link href="/newsletter" className="hover:text-white transition-colors">Newsletters</Link>
               </li>
               <li>
                 <a href="https://stars.givebacks.com/shop" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">PTA Store & Memberships</a>
