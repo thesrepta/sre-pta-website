@@ -11,8 +11,29 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Sangaree Elementary School PTA",
-  description: "Together, We Shine Brighter! The official website for the Sangaree Elementary School PTA.",
+  metadataBase: new URL('https://srepta.org'),
+  title: {
+    default: "Sangaree Elementary School PTA | Summerville, SC",
+    template: "%s | Sangaree Elementary PTA",
+  },
+  description: "Welcome to the official website of the Sangaree Elementary School PTA in Summerville, SC. Join us in supporting our students, teachers, and community! Leading Under the Stars.",
+  keywords: [
+    "Sangaree Elementary", 
+    "SRE PTA", 
+    "Summerville SC", 
+    "Parent Teacher Association", 
+    "Sangaree Elementary School", 
+    "Sangaree PTA",
+    "Berkeley County School District"
+  ],
+  openGraph: {
+    title: "Sangaree Elementary School PTA",
+    description: "Welcome to the official website of the Sangaree Elementary School PTA in Summerville, SC.",
+    url: "https://srepta.org",
+    siteName: "Sangaree Elementary PTA",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
