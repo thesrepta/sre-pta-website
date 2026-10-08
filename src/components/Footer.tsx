@@ -82,12 +82,7 @@ export function Footer() {
             <h3 className="text-sm font-bold text-white mb-4 uppercase tracking-wider">Information</h3>
             <ul className="space-y-2 text-sm">
               <li>Affiliated with South Carolina PTA (SCPTA)</li>
-              <li>
-                <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-              </li>
-              <li>
-                <Link href="/accessibility" className="hover:text-white transition-colors">Accessibility Statement</Link>
-              </li>
+
             </ul>
           </div>
         </div>
