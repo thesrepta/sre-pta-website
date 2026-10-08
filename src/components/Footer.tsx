@@ -18,7 +18,7 @@ const FacebookIcon = ({ className }: { className?: string }) => (
 );
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2026;
 
   return (
     <footer className="bg-midnight-navy text-white/80 relative overflow-hidden mt-auto">
