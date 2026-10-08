@@ -135,7 +135,7 @@ export default function Home() {
               <div className="flex-1">
                 <div className="flex flex-col items-center gap-4 mb-4 text-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/images/home/Join the PTA Bear Badge copy.png" alt="Join the PTA Bear" className="w-32 h-32 object-contain drop-shadow-md" />
+                  <img src="/sre-pta-website/images/home/Join the PTA Bear Badge copy.png" alt="Join the PTA Bear" className="w-32 h-32 object-contain drop-shadow-md" />
                   <h3 className="text-2xl font-bold text-midnight-navy">Join the PTA</h3>
                 </div>
                 <p className="text-midnight-navy/70 mb-4 text-center">
@@ -157,7 +157,7 @@ export default function Home() {
               <div className="flex-1">
                 <div className="flex flex-col items-center gap-4 mb-4 text-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/images/home/Volunteer Logo.png" alt="Volunteer" className="w-32 h-32 object-contain drop-shadow-md" />
+                  <img src="/sre-pta-website/images/home/Volunteer Logo.png" alt="Volunteer" className="w-32 h-32 object-contain drop-shadow-md" />
                   <h3 className="text-2xl font-bold text-midnight-navy">Become a Volunteer</h3>
                 </div>
                 <p className="text-midnight-navy/70 mb-4 text-center">
@@ -179,7 +179,7 @@ export default function Home() {
               <div className="flex-1">
                 <div className="flex flex-col items-center gap-4 mb-4 text-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/images/home/Dads on Demand Logo.png" alt="Dads on Demand" className="w-32 h-32 object-contain drop-shadow-md" />
+                  <img src="/sre-pta-website/images/home/Dads on Demand Logo.png" alt="Dads on Demand" className="w-32 h-32 object-contain drop-shadow-md" />
                   <h3 className="text-2xl font-bold text-midnight-navy">Dads on Demand</h3>
                 </div>
                 <p className="text-midnight-navy/70 mb-4 text-center">
@@ -215,7 +215,7 @@ export default function Home() {
           <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-midnight-navy/5 group hover:shadow-md transition-all flex flex-col">
             <div className="h-48 bg-midnight-navy/5 relative flex items-center justify-center overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/events/02_Creepy_Campfire_Grams.png" alt="Creepy Campfire Grams" className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
+              <img src="/sre-pta-website/images/events/02_Creepy_Campfire_Grams.png" alt="Creepy Campfire Grams" className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="p-6 flex flex-col flex-1">
               <div className="text-sm font-bold text-campfire-orange mb-2 uppercase tracking-wide">Fundraiser</div>
@@ -239,7 +239,7 @@ export default function Home() {
           <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-midnight-navy/5 group hover:shadow-md transition-all flex flex-col">
             <div className="h-48 bg-midnight-navy/5 relative flex items-center justify-center overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/events/03_North_Star_Holiday_Shop.png" alt="North Star Holiday Shop" className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
+              <img src="/sre-pta-website/images/events/03_North_Star_Holiday_Shop.png" alt="North Star Holiday Shop" className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="p-6 flex flex-col flex-1">
               <div className="text-sm font-bold text-forest-green mb-2 uppercase tracking-wide">Fundraiser</div>
@@ -261,7 +261,7 @@ export default function Home() {
           <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-midnight-navy/5 group hover:shadow-md transition-all flex flex-col">
             <div className="h-48 bg-midnight-navy/5 relative flex items-center justify-center overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/events/05_Dancing_Under_the_Stars.png" alt="Dancing Under the Stars" className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
+              <img src="/sre-pta-website/images/events/05_Dancing_Under_the_Stars.png" alt="Dancing Under the Stars" className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="p-6 flex flex-col flex-1">
               <div className="text-sm font-bold text-golden-yellow mb-2 uppercase tracking-wide">Family Event</div>
@@ -296,7 +296,7 @@ export default function Home() {
               <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 items-start sm:items-center">
                 <div className="bg-white w-24 h-32 rounded-lg shadow-inner flex items-center justify-center flex-shrink-0 overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/images/newsletters/October Newsletter.png" alt="October Newsletter" className="w-full h-full object-contain p-1" />
+                  <img src="/sre-pta-website/images/newsletters/October Newsletter.png" alt="October Newsletter" className="w-full h-full object-contain p-1" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-1">October 2026 Newsletter</h3>
@@ -344,17 +344,17 @@ export default function Home() {
         
         <div className="flex flex-wrap justify-center gap-8 md:gap-16 items-center opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/sponsors/Texas-Roadhouse-Logo-1.jpg" alt="Texas Roadhouse" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Texas-Roadhouse-Logo-1.jpg" alt="Texas Roadhouse" className="h-20 w-auto object-contain mix-blend-multiply" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/sponsors/Sweet Mollie Floral Bouquet Logo-2.png" alt="Sweet Mollie Floral Bouquet" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Sweet Mollie Floral Bouquet Logo-2.png" alt="Sweet Mollie Floral Bouquet" className="h-20 w-auto object-contain mix-blend-multiply" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/sponsors/Charleston River Dogs Logo.jpg" alt="Charleston River Dogs" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Charleston River Dogs Logo.jpg" alt="Charleston River Dogs" className="h-20 w-auto object-contain mix-blend-multiply" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/sponsors/South Carolina Aquarium Logo.jpeg" alt="South Carolina Aquarium" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/South Carolina Aquarium Logo.jpeg" alt="South Carolina Aquarium" className="h-20 w-auto object-contain mix-blend-multiply" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/sponsors/South Carolina Stingrays Hockey Logo.svg" alt="South Carolina Stingrays" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/South Carolina Stingrays Hockey Logo.svg" alt="South Carolina Stingrays" className="h-20 w-auto object-contain mix-blend-multiply" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/sponsors/Topgolf-Logo.jpg" alt="Topgolf" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/sre-pta-website/images/sponsors/Topgolf-Logo.jpg" alt="Topgolf" className="h-20 w-auto object-contain mix-blend-multiply" />
         </div>
 
         <div className="mt-12">

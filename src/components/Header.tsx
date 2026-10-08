@@ -23,7 +23,7 @@ export function Header() {
             <span className="sr-only">SRE PTA</span>
             <div className="w-12 h-12 relative bg-white rounded-full overflow-hidden flex items-center justify-center p-1 border-2 border-golden-yellow">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/logo/afdb1e83-9af0-4774-ae76-ad8e89a97468.png" alt="SRE PTA Logo" className="w-full h-full object-contain" />
+              <img src="/sre-pta-website/images/logo/afdb1e83-9af0-4774-ae76-ad8e89a97468.png" alt="SRE PTA Logo" className="w-full h-full object-contain" />
             </div>
             <span className="font-extrabold text-xl tracking-tight hidden sm:block">SRE PTA</span>
           </Link>
@@ -66,7 +66,7 @@ export function Header() {
                 <span className="sr-only">SRE PTA</span>
                 <div className="w-10 h-10 relative bg-white rounded-full overflow-hidden flex items-center justify-center p-1 border border-golden-yellow">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/images/logo/afdb1e83-9af0-4774-ae76-ad8e89a97468.png" alt="SRE PTA Logo" className="w-full h-full object-contain" />
+                  <img src="/sre-pta-website/images/logo/afdb1e83-9af0-4774-ae76-ad8e89a97468.png" alt="SRE PTA Logo" className="w-full h-full object-contain" />
                 </div>
                 <span className="font-extrabold text-xl text-white">SRE PTA</span>
               </Link>
