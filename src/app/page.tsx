@@ -186,9 +186,10 @@ export default function Home() {
                   An initiative encouraging dads and father figures to become involved in the school community.
                 </p>
               </div>
-              <button className="mt-6 w-full bg-midnight-navy hover:bg-midnight-navy/90 text-white font-bold py-3 px-6 rounded-xl transition-colors">
-                Learn More
-              </button>
+              <a href="mailto:PTASangaree@gmail.com" className="mt-6 w-full bg-midnight-navy hover:bg-midnight-navy/90 text-white font-bold py-3 px-4 rounded-xl transition-colors text-center text-sm flex flex-col items-center justify-center leading-snug">
+                <span>Interested in learning more?</span>
+                <span className="text-golden-yellow font-extrabold mt-1">Contact PTASangaree@gmail.com</span>
+              </a>
             </div>
           </div>
         </div>
