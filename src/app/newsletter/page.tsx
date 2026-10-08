@@ -3,20 +3,38 @@ import { Mail, Calendar, Download, ExternalLink } from "lucide-react";
 const newsletters = [
   {
     id: "october-2026",
-    month: "October 2026",
-    title: "Fall Festival & Fun Run Kickoff!",
-    date: "Published: October 1, 2026",
-    description: "Read all about our upcoming Fall events, including the Creepy Campfire Grams and volunteer opportunities.",
-    link: "#",
+    month: "October",
+    title: "October Newsletter",
+    date: "Published: October 2026",
+    description: "Read all about our upcoming Fall events, important dates, and volunteer opportunities for October.",
+    link: "/sre-pta-website/newsletters/October%20Newsletter.pdf",
     type: "PDF",
   },
   {
     id: "september-2026",
-    month: "September 2026",
-    title: "Welcome Back, Stars!",
-    date: "Published: September 1, 2026",
+    month: "September",
+    title: "September Newsletter",
+    date: "Published: September 2026",
     description: "A warm welcome back to school. Highlights include our successful Donut Day and a message from the PTA President.",
-    link: "#",
+    link: "/sre-pta-website/newsletters/September%20Newsletter.pdf",
+    type: "PDF",
+  },
+  {
+    id: "august-2026",
+    month: "August",
+    title: "August Newsletter",
+    date: "Published: August 2026",
+    description: "Getting ready for the new school year! Important back-to-school information, supplies, and dates to remember.",
+    link: "/sre-pta-website/newsletters/August%20Newsletter.pdf",
+    type: "PDF",
+  },
+  {
+    id: "july-2026",
+    month: "July",
+    title: "July Newsletter",
+    date: "Published: July 2026",
+    description: "Summer updates from the PTA. See what we've been planning over the break to make this our best year yet!",
+    link: "/sre-pta-website/newsletters/July%20Newsletter.pdf",
     type: "PDF",
   }
 ];
@@ -70,6 +88,8 @@ export default function NewsletterPage() {
               <div className="flex-shrink-0">
                 <a 
                   href={newsletter.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-midnight-navy hover:bg-midnight-navy/90 text-white font-bold py-3 px-6 rounded-xl transition-colors w-full sm:w-auto"
                 >
                   <Download className="h-4 w-4" />
