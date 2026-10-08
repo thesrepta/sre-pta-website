@@ -25,7 +25,7 @@ export function Header() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/images/logo/afdb1e83-9af0-4774-ae76-ad8e89a97468.png" alt="SRE PTA Logo" className="w-full h-full object-contain" />
             </div>
-            <span className="font-extrabold text-xl tracking-tight hidden sm:block">SRE PTA</span>
+            <span className="font-extrabold text-xl tracking-tight hidden sm:block">Sangaree Elementary School PTA</span>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -68,7 +68,7 @@ export function Header() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/images/logo/afdb1e83-9af0-4774-ae76-ad8e89a97468.png" alt="SRE PTA Logo" className="w-full h-full object-contain" />
                 </div>
-                <span className="font-extrabold text-xl text-white">SRE PTA</span>
+                <span className="font-extrabold text-xl text-white">Sangaree Elementary School PTA</span>
               </Link>
               <button
                 type="button"
