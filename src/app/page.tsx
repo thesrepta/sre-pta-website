@@ -321,12 +321,14 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link 
-                href="/shop"
+              <a 
+                href="https://stars.givebacks.com/shop"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-forest-green hover:bg-forest-green/90 text-white font-bold py-4 px-6 rounded-xl text-center transition-colors flex-1"
               >
                 Visit Our Shop
-              </Link>
+              </a>
               <Link 
                 href="/sponsors"
                 className="bg-campfire-orange hover:bg-orange-500 text-white font-bold py-4 px-6 rounded-xl text-center transition-colors flex-1"
