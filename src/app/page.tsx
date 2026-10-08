@@ -342,7 +342,7 @@ export default function Home() {
       <section className="px-4 max-w-7xl mx-auto w-full text-center">
         <h2 className="text-3xl font-extrabold text-midnight-navy mb-10">Thank You to Our Community Partners!</h2>
         
-        <div className="flex flex-wrap justify-center gap-8 md:gap-16 items-center opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-16 items-center transition-all duration-500">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/sre-pta-website/images/sponsors/Texas-Roadhouse-Logo-1.jpg" alt="Texas Roadhouse" className="h-20 w-auto object-contain mix-blend-multiply" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
