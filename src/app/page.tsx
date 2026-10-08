@@ -80,7 +80,7 @@ export default function Home() {
       {/* Section B: What Is the PTA? */}
       <section className="px-4 max-w-7xl mx-auto w-full">
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
-          <h2 className="text-4xl font-extrabold text-midnight-navy">What Is the PTA?</h2>
+          <h2 className="text-4xl font-extrabold text-midnight-navy">What is the PTA?</h2>
           <p className="text-lg text-midnight-navy/80 font-medium leading-relaxed">
             The Sangaree Elementary School PTA is a volunteer-led organization made up of parents, guardians, teachers, and community members who work together to support our students and school. Through fundraising, family events, volunteer opportunities, and community partnerships, we help create meaningful experiences for our Stars.
           </p>
