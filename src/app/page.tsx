@@ -360,6 +360,8 @@ export default function Home() {
           <img src="/sre-pta-website/images/sponsors/South Carolina Stingrays Hockey Logo.svg" alt="South Carolina Stingrays" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/sre-pta-website/images/sponsors/Topgolf-Logo.jpg" alt="Topgolf" className="h-20 w-auto object-contain" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/sre-pta-website/images/sponsors/riverbanks-zoo.jpg.webp" alt="Riverbanks Zoo" className="h-20 w-auto object-contain" />
         </div>
 
         <div className="mt-12">

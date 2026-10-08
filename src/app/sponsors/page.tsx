@@ -30,6 +30,11 @@ const sponsors = [
     id: "topgolf",
     name: "Topgolf",
     image: "/sre-pta-website/images/sponsors/Topgolf-Logo.jpg",
+  },
+  {
+    id: "riverbanks-zoo",
+    name: "Riverbanks Zoo & Garden",
+    image: "/sre-pta-website/images/sponsors/riverbanks-zoo.jpg.webp",
   }
 ];
 
