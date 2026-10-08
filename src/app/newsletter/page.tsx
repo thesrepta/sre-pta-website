@@ -8,6 +8,7 @@ const newsletters = [
     date: "Published: October 2026",
     description: "Read all about our upcoming Fall events, important dates, and volunteer opportunities for October.",
     link: "/sre-pta-website/newsletters/October%20Newsletter.pdf",
+    image: "/sre-pta-website/images/newsletters/October%20Newsletter.png",
     type: "PDF",
   },
   {
@@ -17,6 +18,7 @@ const newsletters = [
     date: "Published: September 2026",
     description: "A warm welcome back to school. Highlights include our successful Donut Day and a message from the PTA President.",
     link: "/sre-pta-website/newsletters/September%20Newsletter.pdf",
+    image: "/sre-pta-website/images/newsletters/September%20Newsletter.png",
     type: "PDF",
   },
   {
@@ -26,6 +28,7 @@ const newsletters = [
     date: "Published: August 2026",
     description: "Getting ready for the new school year! Important back-to-school information, supplies, and dates to remember.",
     link: "/sre-pta-website/newsletters/August%20Newsletter.pdf",
+    image: "/sre-pta-website/images/newsletters/August%20Newsletter.png",
     type: "PDF",
   },
   {
@@ -35,6 +38,7 @@ const newsletters = [
     date: "Published: July 2026",
     description: "Summer updates from the PTA. See what we've been planning over the break to make this our best year yet!",
     link: "/sre-pta-website/newsletters/July%20Newsletter.pdf",
+    image: "/sre-pta-website/images/newsletters/July%20Newsletter.png",
     type: "PDF",
   }
 ];
@@ -68,33 +72,52 @@ export default function NewsletterPage() {
       <section className="px-4 max-w-4xl mx-auto w-full">
         <div className="space-y-6">
           {newsletters.map((newsletter) => (
-            <div key={newsletter.id} className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-midnight-navy/5 flex flex-col sm:flex-row sm:items-center justify-between gap-6 hover:shadow-md transition-shadow group">
-              <div className="flex-1 space-y-3">
-                <div className="flex items-center gap-3 text-sm font-bold text-forest-green tracking-wide uppercase">
-                  <Calendar className="h-4 w-4" />
-                  {newsletter.month}
-                </div>
-                <h2 className="text-2xl font-extrabold text-midnight-navy group-hover:text-forest-green transition-colors">
-                  {newsletter.title}
-                </h2>
-                <p className="text-midnight-navy/70 leading-relaxed">
-                  {newsletter.description}
-                </p>
-                <div className="text-sm text-midnight-navy/50 font-medium">
-                  {newsletter.date}
-                </div>
-              </div>
-              
-              <div className="flex-shrink-0">
-                <a 
-                  href={newsletter.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-midnight-navy hover:bg-midnight-navy/90 text-white font-bold py-3 px-6 rounded-xl transition-colors w-full sm:w-auto"
-                >
-                  <Download className="h-4 w-4" />
-                  Download {newsletter.type}
+            <div key={newsletter.id} className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-midnight-navy/5 flex flex-col sm:flex-row sm:items-center gap-6 md:gap-8 hover:shadow-md transition-shadow group">
+              {/* Thumbnail */}
+              <div className="w-full sm:w-48 h-64 sm:h-auto flex-shrink-0 bg-gray-100 rounded-xl overflow-hidden border border-gray-200 relative group-hover:border-forest-green/30 transition-colors">
+                <a href={newsletter.link} target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <img 
+                    src={newsletter.image} 
+                    alt={`${newsletter.title} Thumbnail`} 
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-midnight-navy/0 group-hover:bg-midnight-navy/10 transition-colors flex items-center justify-center">
+                    <ExternalLink className="text-white opacity-0 group-hover:opacity-100 transition-opacity drop-shadow-md h-8 w-8" />
+                  </div>
                 </a>
+              </div>
+
+              {/* Content */}
+              <div className="flex-1 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+                <div className="flex-1 space-y-3">
+                  <div className="flex items-center gap-3 text-sm font-bold text-forest-green tracking-wide uppercase">
+                    <Calendar className="h-4 w-4" />
+                    {newsletter.month}
+                  </div>
+                  <h2 className="text-2xl font-extrabold text-midnight-navy group-hover:text-forest-green transition-colors">
+                    <a href={newsletter.link} target="_blank" rel="noopener noreferrer">
+                      {newsletter.title}
+                    </a>
+                  </h2>
+                  <p className="text-midnight-navy/70 leading-relaxed">
+                    {newsletter.description}
+                  </p>
+                  <div className="text-sm text-midnight-navy/50 font-medium">
+                    {newsletter.date}
+                  </div>
+                </div>
+                
+                <div className="flex-shrink-0 self-start sm:self-center">
+                  <a 
+                    href={newsletter.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 bg-midnight-navy hover:bg-midnight-navy/90 text-white font-bold py-3 px-6 rounded-xl transition-colors w-full sm:w-auto"
+                  >
+                    <Download className="h-4 w-4" />
+                    Download {newsletter.type}
+                  </a>
+                </div>
               </div>
             </div>
           ))}
