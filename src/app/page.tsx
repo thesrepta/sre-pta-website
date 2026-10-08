@@ -351,7 +351,7 @@ export default function Home() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/sre-pta-website/images/sponsors/Texas-Roadhouse-Logo-1.jpg" alt="Texas Roadhouse" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/sre-pta-website/images/sponsors/Sweet Mollie Floral Bouquet Logo-2.png" alt="Sweet Mollie Floral Bouquet" className="h-20 w-auto object-contain" />
+          <img src="/sre-pta-website/images/sponsors/Sweet-Mollie-Black.png" alt="Sweet Mollie Floral Bouquet" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/sre-pta-website/images/sponsors/Charleston River Dogs Logo.jpg" alt="Charleston River Dogs" className="h-20 w-auto object-contain" />
           {/* eslint-disable-next-line @next/next/no-img-element */}

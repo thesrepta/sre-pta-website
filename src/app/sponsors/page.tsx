@@ -4,7 +4,7 @@ const sponsors = [
   {
     id: "sweet-mollie",
     name: "Sweet Mollie Floral Bouquet",
-    image: "/sre-pta-website/images/sponsors/Sweet Mollie Floral Bouquet Logo-2.png",
+    image: "/sre-pta-website/images/sponsors/Sweet-Mollie-Black.png",
   },
   {
     id: "texas-roadhouse",
