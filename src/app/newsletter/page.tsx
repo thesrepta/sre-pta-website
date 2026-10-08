@@ -7,8 +7,8 @@ const newsletters = [
     title: "October Newsletter",
     date: "Published: October 2026",
     description: "Read all about our upcoming Fall events, important dates, and volunteer opportunities for October.",
-    link: "/sre-pta-website/newsletters/October%20Newsletter.pdf",
-    image: "/sre-pta-website/images/newsletters/October%20Newsletter.png",
+    link: "/newsletters/October%20Newsletter.pdf",
+    image: "/images/newsletters/October%20Newsletter.png",
     type: "PDF",
   },
   {
@@ -17,8 +17,8 @@ const newsletters = [
     title: "September Newsletter",
     date: "Published: September 2026",
     description: "A warm welcome back to school. Highlights include our successful Donut Day and a message from the PTA President.",
-    link: "/sre-pta-website/newsletters/September%20Newsletter.pdf",
-    image: "/sre-pta-website/images/newsletters/September%20Newsletter.png",
+    link: "/newsletters/September%20Newsletter.pdf",
+    image: "/images/newsletters/September%20Newsletter.png",
     type: "PDF",
   },
   {
@@ -27,8 +27,8 @@ const newsletters = [
     title: "August Newsletter",
     date: "Published: August 2026",
     description: "Getting ready for the new school year! Important back-to-school information, supplies, and dates to remember.",
-    link: "/sre-pta-website/newsletters/August%20Newsletter.pdf",
-    image: "/sre-pta-website/images/newsletters/August%20Newsletter.png",
+    link: "/newsletters/August%20Newsletter.pdf",
+    image: "/images/newsletters/August%20Newsletter.png",
     type: "PDF",
   },
   {
@@ -37,8 +37,8 @@ const newsletters = [
     title: "July Newsletter",
     date: "Published: July 2026",
     description: "Summer updates from the PTA. See what we've been planning over the break to make this our best year yet!",
-    link: "/sre-pta-website/newsletters/July%20Newsletter.pdf",
-    image: "/sre-pta-website/images/newsletters/July%20Newsletter.png",
+    link: "/newsletters/July%20Newsletter.pdf",
+    image: "/images/newsletters/July%20Newsletter.png",
     type: "PDF",
   }
 ];

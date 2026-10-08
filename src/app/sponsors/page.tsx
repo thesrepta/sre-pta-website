@@ -4,37 +4,37 @@ const sponsors = [
   {
     id: "sweet-mollie",
     name: "Sweet Mollie Floral Bouquet",
-    image: "/sre-pta-website/images/sponsors/Sweet-Mollie-Black.jpg",
+    image: "/images/sponsors/Sweet-Mollie-Black.jpg",
   },
   {
     id: "texas-roadhouse",
     name: "Texas Roadhouse",
-    image: "/sre-pta-website/images/sponsors/Texas-Roadhouse-Logo-1.jpg",
+    image: "/images/sponsors/Texas-Roadhouse-Logo-1.jpg",
   },
   {
     id: "river-dogs",
     name: "Charleston River Dogs",
-    image: "/sre-pta-website/images/sponsors/Charleston River Dogs Logo.jpg",
+    image: "/images/sponsors/Charleston River Dogs Logo.jpg",
   },
   {
     id: "sc-aquarium",
     name: "South Carolina Aquarium",
-    image: "/sre-pta-website/images/sponsors/South Carolina Aquarium Logo.jpeg",
+    image: "/images/sponsors/South Carolina Aquarium Logo.jpeg",
   },
   {
     id: "stingrays",
     name: "South Carolina Stingrays",
-    image: "/sre-pta-website/images/sponsors/South Carolina Stingrays Hockey Logo.svg",
+    image: "/images/sponsors/South Carolina Stingrays Hockey Logo.svg",
   },
   {
     id: "topgolf",
     name: "Topgolf",
-    image: "/sre-pta-website/images/sponsors/Topgolf-Logo.jpg",
+    image: "/images/sponsors/Topgolf-Logo.jpg",
   },
   {
     id: "riverbanks-zoo",
     name: "Riverbanks Zoo & Garden",
-    image: "/sre-pta-website/images/sponsors/riverbanks-zoo.jpg.webp",
+    image: "/images/sponsors/riverbanks-zoo.jpg.webp",
   }
 ];
 

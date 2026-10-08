@@ -2,8 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/sre-pta-website",
-  images: {
+    images: {
     unoptimized: true,
   },
   /* config options here */

@@ -5,7 +5,7 @@ const products = [
     id: "tees",
     name: "School Spirit Tees",
     price: "$15",
-    image: "/sre-pta-website/images/shop/Sangaree Elementary Stars Tees.png",
+    image: "/images/shop/Sangaree Elementary Stars Tees.png",
     link: "https://stars.givebacks.com/shop/items/6cb45941dbf645",
     description: [
       "Show your Sangaree Elementary pride with our official school spirit shirt! Featuring our colorful Leading Under the Stars school theme, this shirt is a fun way for students to represent SRE throughout the school year.",
@@ -17,7 +17,7 @@ const products = [
     id: "long-sleeves",
     name: "School Spirit Long Sleeves",
     price: "$22",
-    image: "/sre-pta-website/images/shop/Long Sleeve Shirt.jpg",
+    image: "/images/shop/Long Sleeve Shirt.jpg",
     link: "https://stars.givebacks.com/shop/items/f3e0035d3d",
     description: [
       "This is a pre-order item, and shirts are not kept in stock.",
@@ -30,7 +30,7 @@ const products = [
     id: "hoodies",
     name: "School Spirit Hoodies",
     price: "$27",
-    image: "/sre-pta-website/images/shop/Hoodie.jpg",
+    image: "/images/shop/Hoodie.jpg",
     link: "https://stars.givebacks.com/shop/items/d5b2477042f855",
     description: [
       "This is a pre-order item, and hoodies are not kept in stock.",
@@ -43,7 +43,7 @@ const products = [
     id: "creepy-grams",
     name: "Creepy Campfire Grams",
     price: "$5",
-    image: "/sre-pta-website/images/shop/Boo Grams.png",
+    image: "/images/shop/Boo Grams.png",
     link: "https://stars.givebacks.com/shop/items/45f1e4e9685355",
     description: [
       "🎃 Send a little Halloween surprise to your favorite SRE Star! 🎃",
